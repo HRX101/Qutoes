@@ -1,0 +1,10 @@
+<?php
+$username="localhost";
+$server="root";
+$password="";
+$database="qutoes";
+$con=mysqli_connect($username,$server,$password,$database);
+if(!$con){
+    die("error");
+}
+?>
